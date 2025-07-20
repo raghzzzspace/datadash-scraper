@@ -1,4 +1,4 @@
-const { chromium } = require('playwright');
+import { chromium } from 'playwright';
 
 const baseUrl = 'https://datadash-study.vercel.app/seed/';
 const seeds = Array.from({ length: 10 }, (_, i) => 53 + i);
